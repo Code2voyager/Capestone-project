@@ -1,0 +1,48 @@
+.patientContainer {
+  display: grid;
+  grid-template-columns: 15% 3fr;
+  gap: 20px;
+}
+
+#patientData {
+  padding: 20px;
+  background-color: #526d82;
+  border-top-right-radius: 10px; /* Add curve to top right corner */
+  border-bottom-right-radius: 10px; /* Add curve to bottom right corner */
+}
+
+.patient_custom_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient_custom_table th,
+.patient_custom_table td {
+  padding: 12px; /* Increased padding */
+  text-align: left;
+  border: 1px solid #ddd; /* Added border for cells */
+}
+
+.patient_custom_table th {
+  background-color: #f2f2f2; /* Background color for header */
+  font-weight: bold;
+}
+
+.patient_custom_table tr:nth-child(odd) {
+  background-color: #DDE6ED; /* Alternate row color for odd rows */
+}
+
+.patient_custom_table tr:nth-child(even) {
+  background-color: #B6BBC4; /* Alternate row color for even rows */
+}
+
+.patient_custom_table tr:hover {
+  background-color: #f0f0f0; /* Hover color for rows */
+}
+
+#patient_cancel_button {
+  background-color: #F28585;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+}
